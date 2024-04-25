@@ -1,0 +1,21 @@
+[project]
+name = "iKnowWYD_on_Linkedin"
+version = "0.1.0"
+description = "Identify posts made by LLM"
+authors = [
+    {name = "anderson stolfi", email = "133429641+popogis24@users.noreply.github.com"},
+]
+dependencies = [
+    "requests>=2.31.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
